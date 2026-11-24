@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
+import { GitHubCalendar } from "react-github-calendar";
 import { Row } from "react-bootstrap";
 
 function Github() {
@@ -11,7 +11,7 @@ function Github() {
       <div className="gitContainer" data-aos="fade-up">
         <GitHubCalendar
           username="Rahuljha4171"
-          color="#1872B6"
+          theme={{ light: ["#ebedf0", "#1872B6"], dark: ["#161b22", "#1872B6"] }}
           blockSize={15}
           blockMargin={5}
           fontSize={16}
